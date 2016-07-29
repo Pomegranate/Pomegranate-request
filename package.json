@@ -1,0 +1,28 @@
+{
+  "name": "pomegranate-request",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pomegranate/Pomegranate-request.git"
+  },
+  "keywords": [
+    "Pomegranate",
+    "Plugin",
+    "http",
+    "wrapper"
+  ],
+  "author": "Jim <monstertke@paperelectron.com> (http://paperelectron.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pomegranate/Pomegranate-request/issues"
+  },
+  "homepage": "https://github.com/Pomegranate/Pomegranate-request#readme",
+  "dependencies": {
+    "request": "^2.74.0"
+  }
+}
