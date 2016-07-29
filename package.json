@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Pomegranate/Pomegranate-request#readme",
   "dependencies": {
+    "bluebird": "^3.4.1",
     "request": "^2.74.0"
   }
 }
