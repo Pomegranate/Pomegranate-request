@@ -13,6 +13,10 @@ var request = require('request')
  * @module index
  */
 
+exports.options = {
+  defaultBaseUrl: false
+}
+
 exports.metadata = {
   name: 'Request',
   type: 'factory',
@@ -38,6 +42,6 @@ function builder(){
         request.defaults(optionsArg)
       , { multiArgs: true })
     }
-    return Promise.promisifyAll(request)
+    return Promise.promisifyAll(request, {multiArgs: true})
   }
 }
