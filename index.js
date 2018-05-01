@@ -18,20 +18,15 @@ exports.options = {
 }
 
 exports.metadata = {
+  frameworkVersion: 6,
   name: 'Request',
   type: 'factory',
   param: 'Request'
 }
 
 exports.plugin = {
-  load: function(inject, loaded) {
-    loaded(null, builder)
-  },
-  start: function(done) {
-    done()
-  },
-  stop: function(done) {
-    done()
+  load: function() {
+    return builder
   }
 }
 

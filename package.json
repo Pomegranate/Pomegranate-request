@@ -25,5 +25,8 @@
   "dependencies": {
     "bluebird": "^3.4.1",
     "request": "^2.74.0"
+  },
+  "peerDependencies": {
+    "pomegranate": "6"
   }
 }
